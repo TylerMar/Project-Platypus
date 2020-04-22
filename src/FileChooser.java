@@ -94,7 +94,7 @@ public class FileChooser extends JPanel implements ActionListener {
                 try {
                     if (!Desktop.isDesktopSupported())//check if Desktop is supported by Platform or not
                     {
-                        System.out.println("not supported");
+                        System.out.println("Operating system not supported");
                         return;
                     }
                     Desktop desktop = Desktop.getDesktop();
